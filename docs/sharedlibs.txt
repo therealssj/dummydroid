@@ -1,0 +1,13 @@
+android.test.runner
+com.android.future.usb.accessory
+com.android.location.provider
+com.android.media.remotedisplay
+com.android.mediadrm.signer
+com.android.nfc_extras
+com.google.android.camera.experimental2015
+com.google.android.dialer.support
+com.google.android.maps
+com.google.android.media.effects
+com.google.widevine.software.drm
+javax.obex
+

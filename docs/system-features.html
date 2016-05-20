@@ -1,0 +1,10 @@
+<p>This form lists all the features available on the device and <a href="http://developer.android.com/guide/topics/manifest/uses-feature-element.html">plays a major role in determining app compatibility</a>.</p>
+
+<p>By default, the list is tailored to suit apps for smartphones and tablets. However, other device classes, such as smart-tvs, might require additional entries.</p>
+
+<p>To determine which system features an app requires, you need the <a href="https://developer.android.com/sdk/index.html">Android SDK</a> and the APK file itself. Use the following command to get a listing:</p>
+
+<pre><code>  aapt dump badging FILENAME.apk
+</code></pre>
+
+<p>Scan the output for lines starting with "uses-feature".</p>
