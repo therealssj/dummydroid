@@ -1,0 +1,18 @@
+<p>This form allows for specifying various aspects of the device to create that can neither be strictly classified as "hardware" or "software". The properties prefixed by "dd." are not found officially in any <code>build.properties</code> file, but may be added by the user to populate the according form fields.</p>
+
+<dl>
+<dt>ro.carrier</dt>
+<dd>Name of the carrier (only applies to phones)</dd>
+<dt>ro.com.google.clientbase</dt>
+<dd>A string, identifying the distributor of the device. Applies to branded or carrier sold phones.</dd>
+<dt>dd.celloperator</dt>
+<dd>Only applies to phones. A numerical string that specifies the carrier.</dd>
+<dt>dd.simoperator</dt>
+<dd>Only applies to phones. A numerical string that specifies the carrier.</dd>
+<dt>dd.locale</dt>
+<dd>The current system language, e.g. "en_US"</dd>
+<dt>dd.timezone</dt>
+<dd>The current system timezone, e.g. "Europe/Berlin"</dd>
+</dl>
+
+<p>Play allows for locking Apps to carriers. If needed, refer to <a href="https://en.wikipedia.org/wiki/Mobile_country_code">this list</a> to determine the value for the desired cell- and network operator. You need to concatenate MCC and MNC of the carrier in question. For example, TMobile/US is "310026".</p>

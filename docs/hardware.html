@@ -1,0 +1,14 @@
+<p>The hardware specs form contains key/value mappings that can be pre-populated from a <code>build.prop</code> file. It is important to double check the screen settings here as those values may be incorrect.</p>
+
+<dl>
+<dt>ro.build.fingerprint</dt>
+<dd>A per model unique hardware fingerprint, made up from several other properties</dd>
+<dt>ro.product.*</dt>
+<dd>Various (internal) names that describe the make of the device.</dd>
+<dt>r.sf.lcd_screendensity</dt>
+<dd>The pixel density of the screen.</dd>
+<dt>dd.screenwidth / dd.screenheight</dt>
+<dd>Width and height of the screen (in pixels). These two values are not part of any official build.prop file, but they may be added to one.</dd>
+</dl>
+
+<p>It is important to check the screen settings in this form. The <code>build.prop</code> file does not have official keys for this, meaning Dummy Droid will guess if dd.screenwidth and dd.screenheight are not added by the user.</p>

@@ -1,0 +1,12 @@
+<p>Google Play makes it a point to only show users apps that are compatible with their respective devices. This naturally means that Google needs to know exactly what you are using (and in some cases, also where you are).</p>
+
+<p>Whenever a new Android dive is powered up for the first time (or factory reset), it will create a hardware profile and upload it to Google Play as soon as you log in your Google Account for the first time. In return for that information, you are given a GSF ID (Google Services Framework Identifier). This identifier addresses your device's profile in Google's database and makes it unnecessary to upload that specification again with every search request.</p>
+
+<p>The device profile is mainly generated from a file called <code>/system/build.prop</code>. Dummy Droid is able to parse that fill as well an pre populate it's forms with the values found therein.</p>
+
+<p>There are multiple ways to get <code>/system/build.prop</code> from your phone/tablet. The easiest is probably installing a file manager app. Another would the ADB tool from the <a href="https://developer.android.com/sdk/">Android SDK</a>. If you choose the later, open a commandline and issue the following command:</p>
+
+<pre><code>  adb pull /system/build.prop
+</code></pre>
+
+<p>If neither is an option, you can also try a build.prop from the <a href="/dummydroid/catalog">catalog</a> or go completely without one (however, that means you have to fill out all the forms manually).</p>
