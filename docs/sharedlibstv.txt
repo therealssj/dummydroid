@@ -2,6 +2,7 @@ android.test.runner
 com.android.future.usb.accessory
 com.android.location.provider
 com.android.media.remotedisplay
+com.android.media.tv.remoteprovider
 com.android.mediadrm.signer
 com.android.nfc_extras
 com.google.android.camera.experimental2015

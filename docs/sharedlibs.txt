@@ -4,7 +4,9 @@ com.android.location.provider
 com.android.media.remotedisplay
 com.android.mediadrm.signer
 com.android.nfc_extras
+com.google.android.camera2
 com.google.android.camera.experimental2015
+com.google.android.camera.experimental2016
 com.google.android.dialer.support
 com.google.android.maps
 com.google.android.media.effects
