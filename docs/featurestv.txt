@@ -17,6 +17,7 @@ android.hardware.camera.capability.raw
 android.hardware.consumerir
 android.hardware.ethernet
 android.hardware.fingerprint
+android.hardware.hdmi.cec
 android.hardware.location
 android.hardware.location.network
 android.hardware.location.gps
@@ -33,7 +34,6 @@ android.hardware.sensor.proximity
 android.hardware.sensor.stepcounter
 android.hardware.sensor.stepdetector
 android.hardware.screen.landscape
-android.hardware.screen.portrait
 android.hardware.telephony
 android.hardware.telephony.cdma
 android.hardware.telephony.gsm
@@ -45,6 +45,8 @@ android.hardware.touchscreen.multitouch.jazzhand
 android.hardware.type.television
 android.hardware.usb.host
 android.hardware.usb.accessory
+android.hardware.vulkan.level
+android.hardware.vulkan.version
 android.hardware.wifi
 android.hardware.wifi.direct
 android.software.app_widgets
@@ -54,9 +56,12 @@ android.software.device_admin
 android.software.home_screen
 android.software.input_methods
 android.software.leanback
+android.software.leanback_only
+android.software.live_tv
 android.software.live_wallpaper
 android.software.managed_users
 android.software.midi
+android.software.picture_in_picture
 android.software.print
 android.software.sip
 android.software.sip.voip
@@ -66,4 +71,7 @@ android.software.webview
 com.google.android.feature.GOOGLE_BUILD
 com.google.android.feature.GOOGLE_EXPERIENCE
 com.google.android.feature.EXCHANGE_6_2
+com.google.android.tv.installed
 com.nxp.mifare
+nrdp.modelgroup
+
