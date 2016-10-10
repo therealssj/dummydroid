@@ -72,9 +72,12 @@ android.software.verified_boot
 android.software.voice_recognizers
 android.software.vr.mode
 android.software.webview
+com.google.android.apps.photos.NEXUS_PRELOAD
+com.google.android.apps.photos.nexus_preload
 com.google.android.feature.GOOGLE_BUILD
 com.google.android.feature.GOOGLE_EXPERIENCE
 com.google.android.feature.EXCHANGE_6_2
+com.google.android.feature.PIXEL_EXPERIENCE
 com.nxp.mifare
 com.verizon.hardware.telephony.lte
 com.verizon.hardware.telephony.ehrpd
