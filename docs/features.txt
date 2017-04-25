@@ -52,7 +52,7 @@ android.hardware.usb.host
 android.hardware.usb.accessory
 android.hardware.vr.high_performance
 android.hardware.vulkan.level
-android.hardware.vulkan.version
+android.hardware.vulkan.version=4194307
 android.hardware.wifi
 android.hardware.wifi.direct
 android.software.app_widgets
@@ -83,4 +83,4 @@ com.verizon.hardware.telephony.lte
 com.verizon.hardware.telephony.ehrpd
 adaptive-playback
 bitrate-modes
-
+reqGlEsVersion=0x30002
