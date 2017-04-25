@@ -1,3 +1,5 @@
+android.ext.services
+android.ext.shared
 android.test.runner
 com.android.future.usb.accessory
 com.android.location.provider
@@ -7,6 +9,7 @@ com.android.mediadrm.signer
 com.android.nfc_extras
 com.google.android.camera.experimental2015
 com.google.android.dialer.support
+com.google.android.gms
 com.google.android.maps
 com.google.android.media.effects
 com.google.android.pano.v1
